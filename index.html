@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moeda</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Moeda </h1>
+    <input type="number" id="valor" placeholder="Valor" />
+    <select id="de">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="GBP">GBP</option>
+  <option value="JPY">JPY</option>
+  <option value="CHF">CHF</option>
+  <option value="AUD">AUD</option>
+  <option value="CAD">CAD</option>
+  <option value="CNY">CNY</option>
+  <option value="BRL">BRL</option>
+  <option value="INR">INR</option>
+      
+
+    </select>
+    <select id="para">
+  <option value="USD">USD</option>
+  <option value="EUR">EUR</option>
+  <option value="GBP">GBP</option>
+  <option value="JPY">JPY</option>
+  <option value="CHF">CHF</option>
+  <option value="AUD">AUD</option>
+  <option value="CAD">CAD</option>
+  <option value="CNY">CNY</option>
+  <option value="BRL">BRL</option>
+  <option value="INR">INR</option>
+
+    </select>
+    <button onclick="converter()">Converter</button>
+    <p id="resultado"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
